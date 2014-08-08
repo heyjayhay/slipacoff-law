@@ -17,8 +17,16 @@ h1, h2, h3, h4, h5, h6, p{
   color: #fff;
 }
 
-.large{
-  text-transform: uppercase;
+.title{
+  color: #a7a9ac;
+}
+
+.right{
+  text-align: right;
+}
+
+.left{
+  text-align: left;
 }
 
 
