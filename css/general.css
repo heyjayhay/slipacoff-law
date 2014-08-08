@@ -12,6 +12,10 @@ html, body{
   padding: 0;
 }
 
+.header{
+  background-color: #fff;
+}
+
 .grid {
   letter-spacing: -0.31em;
   *letter-spacing: normal;
