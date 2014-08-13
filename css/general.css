@@ -1,3 +1,15 @@
+/*@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -box-sizing: border-box;
+}
+
 html, body{
   margin: 0;
   padding: 0;
@@ -19,10 +31,16 @@ html, body{
 }
 
 .grid {
+  margin: 0;
+  padding: 0;
   letter-spacing: -0.31em;
-  *letter-spacing: normal;
-  *word-spacing: -0.43em;
   text-rendering: optimizespeed;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  display: -ms-flexbox;
+  -ms-flex-flow: row wrap;
+  overflow: hidden;
+
 }
 .opera-only :-o-prefocus,
 .grid {
@@ -122,6 +140,7 @@ ul, li{
 
 h1, h2, h4, h5, h6,{
   color: #fff;
+  display: inline;
 }
 
 h2{
