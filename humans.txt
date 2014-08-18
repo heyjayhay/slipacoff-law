@@ -2,9 +2,8 @@
 # The humans responsible & technology colophon
 
 # TEAM
-    Adam Slipacoff —- Owner
-    Ian Rapsey -- Designer
-    Jessica Hay -- Developer
+
+    <name> -- <role> -- <twitter>
 
 # THANKS
 
