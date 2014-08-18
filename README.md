@@ -1,2 +1,2 @@
-Single page wesbite for SlipacoffLaw
+Single page wesbite for Slipacoff Immigration Law
 ============
