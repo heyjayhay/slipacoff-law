@@ -22,13 +22,6 @@ html, body{
   width: 960px;
   position: relative;
   margin: 0 auto;
-  padding: 6em 0 6em 0;
-}
-
-.container-header{
-  width: 960px;
-  position: relative;
-  margin: 0 auto;
   padding: 2em 0 2em 0;
 }
 
@@ -42,13 +35,6 @@ html, body{
 .header{
   background-color: #000;
 }
-.footer{
-  background-color: #000;
-  border-top-style: solid;
-  border-color: #a7a9ac;
-  border-width: 1px;
-}
-
 
 .grid {
   margin: 0;
@@ -77,7 +63,6 @@ html, body{
 }
 .unit-spacer {
   padding-right: 10px;
-  padding-top: 0;
 }
 
   .logo-text-s-hidden{
@@ -91,9 +76,12 @@ html, body{
 
 
 .bcg {
+  background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    height: 100%;
+    width: 100%;
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -116,19 +104,17 @@ html, body{
   display: table-cell;
   vertical-align: middle;
   padding: 0;
-
+  opacity: 0;
+  filter:alpha(opacity=0); 
 }
 
 
 #summary .bcg{
-  background-image:url(../img/bcg_slide-1.jpg);
-  width: 100%;
-  background-size: cover;
-  background-position: top;
+  background-image:url(../img/main-img.jpg);
 }
 
 #profile .bcg{
-  background-image:url(../img/bcg_slide-2.jpg);
+  background-image:url(../img/secondary-img.jpg);
   width: 100%;
   background-size: cover;
   background-position: top;
@@ -138,13 +124,11 @@ ul{
   list-style-type: none;
   padding: 0;
   margin: 0;
-  text-align: left;
 }
 
 ul, li{
+  padding-top: 10px;
   font-size: 11pt;
-  line-height: 25px;
-
 }
 
 
@@ -156,19 +140,8 @@ ul, li{
   color: #a7a9ac;
 }
 
-.footer-title{
-  color: #a7a9ac;
-  margin: 0.5em 0 0 0;
-}
-
 .number{
   padding-top: 25px
-}
-
-p{
-  font-weight: normal;
-  font-size: 11pt;
-  letter-spacing: 0.81px;
 }
 
 h1, h2, h4, h5, h6,{
@@ -196,47 +169,17 @@ h3, p{
   color: #000;
 }
 
-h4{
-  font-size: 1.5em;
-}
-
-h5{
-  font-size: 1.25em;
-}
-
 .right{
   text-align: right;
   vertical-align: text-bottom;
 }
 
-.float-right{
-  float: right;
-}
-
 .white{
   color: #fff;
+  font-size: 11pt;
 }
 
-.margin-top-none{
-  margin-top: 0;
-}
 
-.bottom-padding{
-  padding-bottom: 0.25em;
-}
-
-address{
-  font-style: normal;
-}
-
-/* ==========================================================================
-   Links
-   ========================================================================== */
-
-a{
-  color: #a7a9ac;
-  text-decoration: none;
-}
 
 @media only screen and (max-width: 38em) {
   .unit-s-hidden {
@@ -330,13 +273,6 @@ a{
   .unit-l-1-2 {
     width: 50%;
   }
-
-  .unit-l-2-5 {
-  width: 40.0000%;
-}
-.unit-l-3-5 {
-  width: 60.0000%;
-}
   .unit-l-1-2-2 {
     width: 45%;
   }
