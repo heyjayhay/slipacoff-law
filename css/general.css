@@ -225,6 +225,18 @@ h5{
   padding-bottom: 0.25em;
 }
 
+address{
+  font-style: normal;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+a{
+  color: #a7a9ac;
+  text-decoration: none;
+}
 
 @media only screen and (max-width: 38em) {
   .unit-s-hidden {
